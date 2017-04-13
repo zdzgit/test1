@@ -1,0 +1,23 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>中秋节快乐</title>
+</head>
+<body>
+<!-- <p>今天中秋节</p>
+	<h1><a href="http://www.baidu.com">淘宝网连接</a></h1> -->
+</body>
+<script type="text/javascript">
+var str=[1,3,2,4,1,6,9,4,3,2];
+for(var i=0;i<str.length;i++){
+	for(var j=i+1;j<str.length;j++){
+		if(str[i]==str[j]){
+			str.splice(j,1);
+		}
+	}
+}
+alert(str);
+
+</script>
+</html>
